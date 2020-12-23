@@ -2,27 +2,49 @@
 
 <html lang="en">
     <head>
+        <style>
+            .list {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                text-align: right;
+                justify-content: flex-end;
+                flex-direction: row;
+                align-items: flex-end;
+            }
+
+            .list li {
+                padding: 10px;
+            }
+
+            .list a {
+                text-decoration: none;
+            }
+
+            .list a:hover {
+                text-decoration: underline;
+            }
+        </style>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>
             Web
         </title>
         <body>
             <aside>
-                <ul>
+                <ul class ="list">
                     <li>
-                        first
+                        <a href="">Main</a>
                     </li>
                     <li>
-                        second
+                        <a href="">About</a>
                     </li>
                     <li>
                         <a href="https://www.tut.by/"> click </a>
                     </li>
-                    <li>
-                        <img src = "C:\Users\HP\Desktop\Images\1.jpg"/>
-                    </li>
                 </ul>
-                <ol>
+                <ol class ="numeric-list">
                     <li>
                         uno
                     </li>
